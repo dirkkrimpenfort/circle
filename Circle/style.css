@@ -1,0 +1,24 @@
+/*BASIC CIRCLE*/
+.circle
+{
+    width: 25%;
+    border-radius: 50%;
+    background-image: url(/track-image.jpeg);
+    position: absolute;
+    line-height: 0;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+    
+}
+
+/* Matching Height*/
+.circle::after
+{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    
+}
+
